@@ -1,10 +1,27 @@
 :root{
-    --gradient: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    --font-base: 'Poppins', sans-serif;
+    --headline1: bold 95px/153.71px var(--font-base) ;
+    --headline2: bold 59px/95px var(--font-base);
+    --headline3: bold 48px/77px var(--font-base);
+    --headline4: bold 34px/55px var(--font-base);
+    --headline5: bold 24px/38px var(--font-base);
+
+    --body1: bold 16px/25px var(--font-base);
+    --body2: bold 14px/22px var(--font-base);
+
+    --button: bold 14px/22px var(--font-base);
+    --caption: 12px/19px var(--font-base);
+
+    --gradient: radial-gradient(circle, rgba(63,251,240,1) 0%, rgba(178,70,252,1) 100%);
+    --purpura: #583DDB;
+    --green: #09FA40;
 }
 
 body{
     background: var(--gradient);
-    height: 100%;
+    min-block-size: 100vh;
+    font: var(--body1);
+    color: var(--green);
 }
 .header{
     display: flex;
