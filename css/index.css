@@ -2,6 +2,7 @@
 @import "./header.css";
 @import "./button-icon.css";
 @import "./hero.css";
+@import "./wrapper.css";
 
 :root{
     --font-base: 'Poppins', sans-serif;
@@ -17,7 +18,7 @@
     --button: bold 14px/22px var(--font-base);
     --caption: 12px/19px var(--font-base);
 
-    --gradient: linear-gradient(209deg, rgba(117,230,255,1) 37%, rgba(109,36,193,1) 100%);
+    --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
     --purple: #310A90;
     --green: #42E2BB;
     --white: #fff;
