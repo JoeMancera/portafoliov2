@@ -16,6 +16,10 @@
     text-align: center;
 }
 
+.hero-image img{
+    max-inline-size: 100%;
+}
+
 .hero h1{
     font: var(--headline3);
     margin: 0;
