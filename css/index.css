@@ -1,6 +1,9 @@
+@import "./button.css";
+@import "./header.css";
+
 :root{
     --font-base: 'Poppins', sans-serif;
-    --headline1: bold 95px/153.71px var(--font-base) ;
+    --headline1: bold 95px/153.71px var(--font-base);
     --headline2: bold 59px/95px var(--font-base);
     --headline3: bold 48px/77px var(--font-base);
     --headline4: bold 34px/55px var(--font-base);
@@ -12,19 +15,15 @@
     --button: bold 14px/22px var(--font-base);
     --caption: 12px/19px var(--font-base);
 
-    --gradient: radial-gradient(circle, rgba(63,251,240,1) 0%, rgba(178,70,252,1) 100%);
-    --purpura: #583DDB;
-    --green: #09FA40;
+    --gradient: linear-gradient(209deg, rgba(117,230,255,1) 37%, rgba(109,36,193,1) 100%);
+    --purple: #310A90;
+    --green: #42E2BB;
+    --white: #fff;
 }
 
 body{
     background: var(--gradient);
     min-block-size: 100vh;
     font: var(--body1);
-    color: var(--green);
+    color: var(--purple);
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-}
-
