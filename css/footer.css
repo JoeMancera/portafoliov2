@@ -1,0 +1,42 @@
+.footer{
+    color: var(--white);
+    text-align: center;
+}
+
+.footer{
+    justify-content: center;
+}
+
+.footer-logo{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-logo{
+        display: block;
+    }
+
+    .footer .social{
+        order: 3;
+        padding: 0;
+        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer-copyrigth{
+        display: flex;
+        gap: 8px;
+    }
+
+    .footer{
+        padding-block-start: 40px;
+        padding-block-end: 40px;
+    }
+}
