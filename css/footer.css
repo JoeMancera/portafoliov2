@@ -1,9 +1,9 @@
-.footer{
+.footer-content{
     color: var(--white);
     text-align: center;
 }
 
-.footer{
+.footer-content{
     justify-content: center;
 }
 
@@ -12,7 +12,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .footer{
+    .footer-content{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -22,7 +22,7 @@
         display: block;
     }
 
-    .footer .social{
+    .footer-content .social{
         order: 3;
         padding: 0;
         
@@ -35,8 +35,8 @@
         gap: 8px;
     }
 
-    .footer{
-        padding-block-start: 40px;
-        padding-block-end: 40px;
+    .footer-content{
+        margin-block-start: 40px;
+        margin-block-end: 40px;
     }
 }
