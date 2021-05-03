@@ -14,10 +14,11 @@
   
 .hero-image{
     padding-block-end: 24px;
+    text-align: center;
 }
 
-.hero-image{
-    text-align: center;
+.hero-image img{
+    border-radius: 10px;
 }
 
 .hero-image img{

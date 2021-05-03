@@ -1,0 +1,24 @@
+.testimony{
+    text-align: center;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    background: linear-gradient(38deg, rgba(255, 255, 255, 0.3) 34%, rgba(84, 84, 220, 0.3) 100%);
+    border-radius: 12px;
+    margin-block-end: 15px;
+    margin-block-start: 15px;
+    padding: 25px;
+    gap: 32px;
+}
+
+.testimony p{
+    font: var(--body2);
+}
+
+.testimony img{
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+    .testimony p {
+        line-height: 32px;
+    }
+}

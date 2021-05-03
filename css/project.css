@@ -25,9 +25,10 @@
 
     .project-description{
         display: flex;
+        min-width: 40%;
         flex: 1;
     }
-    .project:nth-child(odd) .project-image{
+    .project:nth-child(4n+1) .project-image{
         order: 2;
         flex: 1;
         text-align: center;

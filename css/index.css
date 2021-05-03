@@ -5,10 +5,12 @@
 @import "./wrapper.css";
 @import "./menu.css";
 @import "./project.css";
+@import "./testimony.css";
 @import "./social.css";
 @import "./footer.css";
 @import "./form.css";
 @import "./title.css";
+@import "./onboarding.css";
 
 :root{
     --font-base: 'Poppins', sans-serif;
